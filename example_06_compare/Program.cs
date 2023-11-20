@@ -18,5 +18,9 @@ if(number_01>number_02)
     max=number_01;
     min=A;
 }
+if(number_03>max)max=number_03;
+if(number_03<min)min=number_03;
+if(number_04>max)max=number_04;
+if(number_05<min)min=number_05;
 Console.WriteLine(max);
 Console.WriteLine(min);
