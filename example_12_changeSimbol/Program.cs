@@ -15,13 +15,10 @@ string ReplaceSimbol(string text, char oldSimbol, char newSimbol)
     }
     return result;
 }
-// string text = "мороз и солнце, день чудесный";
-// string NewText = ReplaceSimbol(text, ' ', '|');
-// Console.WriteLine(NewText);
+string text = "мороз и солнце, день чудесный";
+string NewText = ReplaceSimbol(text, ' ', '|');
+Console.WriteLine(NewText);
 
-// NewText = ReplaceSimbol(NewText, 'о', 'О');
-// Console.WriteLine(NewText);
+NewText = ReplaceSimbol(NewText, 'о', 'О');
+Console.WriteLine(NewText);
 
-int[] arr={156,258,45,23,67,24,92,15,756,452};
-int i=arr.Length;
-Console.WriteLine(i);
